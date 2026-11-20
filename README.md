@@ -1,15 +1,23 @@
 
-# WarmHands – Retail Sales Analysis
+<p align="center">
+  <img src="Report.png" alt="WarmHands Power BI Dashboard" width="100%">
+</p>
 
-## Power BI | Excel | Power Query | DAX
+<h1 align="center">WarmHands – Retail Sales Analysis</h1>
 
-An end-to-end retail sales analysis project focused on transforming raw sales data into meaningful business insights through data cleaning, data modeling, DAX calculations, and interactive Power BI visualizations.
+<h3 align="center">Power BI | Excel | Power Query | DAX</h3>
+
+<p align="center">
+  An End-to-End Retail Sales Analysis Project
+</p>
+
+---
 
 ## 📌 Project Overview
 
-The objective of this project is to analyze retail sales performance, evaluate product and category profitability, understand geographic sales distribution, and identify business opportunities.
+An end-to-end retail sales analysis project focused on transforming raw sales data into meaningful business insights through data cleaning, data modeling, DAX calculations, and interactive Power BI visualizations.
 
-The project covers the complete analytics workflow, from reviewing and preparing the source data to building an interactive Power BI dashboard.
+The objective is to analyze retail sales performance, evaluate product and category profitability, understand geographic sales distribution, and identify business opportunities.
 
 ## 🎯 Business Objectives
 
@@ -22,16 +30,18 @@ The project covers the complete analytics workflow, from reviewing and preparing
 
 ## 🗂️ Dataset
 
-Source file: `WarmeHands - data.xlsx`
+**Source File:** `WarmeHands - data.xlsx`
 
 The workbook contains six worksheets:
 
-- **Orders:** Main sales transaction records.
-- **Stock:** Product inventory information.
-- **Customer:** Customer-related information.
-- **Country:** Geographic information.
-- **Price:** Product retail prices.
-- **Costs:** Product cost information.
+| Worksheet | Description |
+|---|---|
+| Orders | Main sales transaction records |
+| Stock | Product inventory information |
+| Customer | Customer-related information |
+| Country | Geographic information |
+| Price | Product retail prices |
+| Costs | Product cost information |
 
 After data cleaning, the Orders table contained **12,356 records**.
 
@@ -60,19 +70,21 @@ Used Power Query to:
 
 ### 2. Data Transformation
 
-Merged the Price table with Orders using:
+Merged the Price table with Orders using the following matching columns:
 
-`Orders[SKU] = Price[ID]`
+```text
+Orders[SKU] = Price[ID]
+```
 
 This added retail price information to the sales transactions.
 
 ### 3. Data Modeling
 
-Built a connected Power BI data model using Orders as the central transaction table and supporting tables for customer, country, stock, price, and costs information.
+Built a connected Power BI data model using Orders as the central transaction table, supported by Customer, Country, Stock, Price, and Costs tables.
 
 ### 4. DAX Measures
 
-Developed measures to analyze:
+Developed DAX measures to analyze:
 
 - Total Revenue
 - Total Profit
@@ -88,18 +100,28 @@ Developed measures to analyze:
 
 ## 📊 Dashboard Features
 
-The project includes a single-page interactive Power BI dashboard with:
+The project includes a single-page interactive Power BI dashboard featuring:
 
-- KPI Cards: Total Revenue, Total Profit, Average Order Value.
-- Product Performance: Top and lowest selling products.
-- Top 10 Products by Sales Revenue.
-- Top 10 Products by Quantity Sold.
-- Top 10 Products by Profit.
-- Monthly Sales Trend.
-- Top 10 Countries by Sales.
-- Category Revenue Contribution.
-- Profit Margin by Category.
-- Interactive Date Slicer.
+**Key Performance Indicators**
+- Total Revenue
+- Total Profit
+- Average Order Value
+
+**Product Performance**
+- Top Selling Product
+- Lowest Selling Product
+- Top 10 Products by Sales Revenue
+- Top 10 Products by Quantity Sold
+- Top 10 Products by Profit
+
+**Sales & Geographic Analysis**
+- Monthly Sales Trend
+- Top 10 Countries by Sales
+- Category Revenue Contribution
+- Profit Margin by Category
+
+**Interactive Features**
+- Date Slicer with Between selection mode.
 
 ## 🔍 Key Business Insights
 
@@ -122,7 +144,7 @@ The project includes a single-page interactive Power BI dashboard with:
 
 ## ⚠️ Scope & Limitations
 
-- Profit deducts raw material costs only; it is not net profit.
+- Profit deducts raw material costs only; it does not represent net profit.
 - The monthly trend covers one year and does not establish multi-year seasonality.
 - Findings describe the analyzed data and do not establish causal relationships.
 
@@ -140,12 +162,14 @@ I completed the project workflow, including:
 
 ## 📚 Skills Demonstrated
 
-Power BI | Power Query | DAX | Excel | Data Cleaning | Data Transformation | Data Modeling | Data Visualization | Business Intelligence | Retail Sales Analysis
+`Power BI` `Power Query` `DAX` `Excel` `Data Cleaning` `Data Transformation` `Data Modeling` `Data Visualization` `Business Intelligence` `Retail Sales Analysis`
 
 ## 🔗 Portfolio
 
 [View My Data Analytics Portfolio](https://datascienceportfol.io/mmeligy55)
 
 ---
-**Project Type:** Data Analytics Diploma – Training Project
 
+<p align="center">
+  <strong>Project Type:</strong> Data Analytics Diploma – Training Project
+</p>
